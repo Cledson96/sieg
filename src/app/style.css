@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+.bg-topo {
+    background: #128b9e url('/img/topo.png') center no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 900px;
+    position: relative;
+}
+
+.font-normal {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bg-topo img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+.topo {
+    width: 600px;
+}
+
+.topo h1 {
+    font-size: 52px;
+    line-height: 1.25;
+    display: inline-block;
+    border-bottom: 5px solid #ff6c00;
+    color: white;
+    font-weight: 700;
+}
