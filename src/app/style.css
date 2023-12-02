@@ -34,3 +34,7 @@
     color: white;
     font-weight: 700;
 }
+
+.img-full img {
+    min-height: 100%;
+}

@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@types/antd": "^1.0.0",
+    "@types/react-highlight-words": "^0.16.7",
+    "antd": "^5.11.5",
     "headlessui": "^0.0.0",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-highlight-words": "^0.20.0",
     "react-icons": "^4.12.0"
   },
   "devDependencies": {
