@@ -194,6 +194,15 @@ export default function Tabela({ filtro }: { filtro: string }): JSX.Element {
       sorter: (a, b) => a.valor.length - b.valor.length,
       sortDirections: ["descend", "ascend"],
     },
+    {
+      title: "Ação",
+      key: "action",
+      sorter: true,
+      width: 110,
+      render: (ref) => (
+         <button className="bg-padrao w-28 h-10 text-white rounded border" onClick={()=> console.log(ref)}>Aderir</button>
+      ),
+  },
   ];
 
   return (

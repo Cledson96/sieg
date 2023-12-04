@@ -1,3 +1,5 @@
+import { ReactElement } from "react";
+
 export interface DataType {
   key: number;
   esfera: string;
@@ -9,6 +11,7 @@ export interface DataType {
   modelo: string;
   valor: string;
   filtro: string;
+
 }
 
 export const data: DataType[] = [
