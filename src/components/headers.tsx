@@ -1,4 +1,5 @@
 "use client";
+<<<<<<< HEAD
 import { Fragment, useState } from "react";
 import Image from "next/image";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
@@ -59,18 +60,34 @@ const callsToAction = [
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
+=======
+import { useState } from "react";
+import Image from "next/image";
+import { Dialog, Popover } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
+import logo from "../../public/img/sieg.svg";
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
 
 export default function Headers() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
+<<<<<<< HEAD
     <header className="bg-padrao fixed w-full z-50">
+=======
+    <header className="bg-padrao fixed w-screen	 z-50">
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1 py-5">
+<<<<<<< HEAD
           <Image className="w-auto" src={logo} alt="Sieg" />
+=======
+          <Image className="w-auto max-h-12" src={logo} alt="Sieg" />
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
         </div>
         <div className="flex lg:hidden">
           <button
@@ -84,11 +101,16 @@ export default function Headers() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12 pl-5">
           <a
+<<<<<<< HEAD
             href="#"
+=======
+            href="#Sieg"
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
             className="text-lg leading-6 text-white px-5 py-4 hover:bg-transparente "
           >
             A SIEG
           </a>
+<<<<<<< HEAD
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-lg  leading-6 text-white px-5 py-4 hover:bg-transparente hover:bg-transparente">
               ATUAÇÃO
@@ -151,18 +173,36 @@ export default function Headers() {
 
           <a
             href="#"
+=======
+          <a
+            href="#Atuacao"
+            className="text-lg  leading-6 text-white px-5 py-4 hover:bg-transparente"
+          >
+            ATUAÇÃO
+          </a>
+          <a
+            href="#Atas"
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
             className="text-lg  leading-6 text-white px-5 py-4 hover:bg-transparente"
           >
             ATAS
           </a>
           <a
+<<<<<<< HEAD
             href="#"
+=======
+            href="#Contato"
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
             className="text-lg  leading-6 text-white px-5 py-4 hover:bg-transparente"
           >
             CONTATO
           </a>
           <a
+<<<<<<< HEAD
             href="#"
+=======
+            href="https://sieg-vagas.bubbleapps.io/version-test/"
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
             className="text-lg  leading-6 text-white px-5 py-4 hover:bg-transparente	"
           >
             VAGAS
@@ -183,6 +223,7 @@ export default function Headers() {
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >
+<<<<<<< HEAD
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
@@ -200,12 +241,27 @@ export default function Headers() {
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
+=======
+        <div className="fixed inset-0 z-10 " />
+        <Dialog.Panel className="fixed top-[88px] right-0 z-10 w-full overflow-y-auto bg-transparente2 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div className="flex items-center justify-between">
+            <a href="#" className="-m-1.5 p-1.5">
+              <Image className="w-auto max-h-8" src={logo} alt="Sieg" />
+            </a>
+            <button
+              type="button"
+              className="-m-2.5 rounded-md p-2.5 text-white"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              <span className="sr-only">Fechar menu</span>
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
               <XMarkIcon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
+<<<<<<< HEAD
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
@@ -251,6 +307,37 @@ export default function Headers() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-white hover:bg-gray-50"
                 >
                   Company
+=======
+                <a
+                  href="#Sieg"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-white hover:bg-padrao"
+                >
+                  A Sieg
+                </a>
+                <a
+                  href="#Atuacao"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-white hover:bg-padrao"
+                >
+                  Atuação
+                </a>
+                <a
+                  href="#Atas"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-white hover:bg-padrao"
+                >
+                  Atas
+                </a>
+                <a
+                  href="#Contato"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-white hover:bg-padrao"
+                >
+                  Contato
+                </a>
+                <a
+                  href="#Sieg"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-white hover:bg-padrao"
+                >
+                  Vagas
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
                 </a>
               </div>
               <div className="py-6">
@@ -258,7 +345,11 @@ export default function Headers() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-white hover:bg-gray-50"
                 >
+<<<<<<< HEAD
                   Log in
+=======
+                  Login
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
                 </a>
               </div>
             </div>

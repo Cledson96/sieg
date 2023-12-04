@@ -9,6 +9,15 @@
     position: relative;
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 768px) {
+    .bg-topo {
+        background: #128b9e url('/img/topo-mobile.png') center no-repeat;
+    }
+}
+
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
 .font-normal {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

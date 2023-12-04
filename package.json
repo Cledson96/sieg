@@ -17,6 +17,10 @@
     "antd": "^5.11.5",
     "headlessui": "^0.0.0",
     "next": "14.0.3",
+<<<<<<< HEAD
+=======
+    "next-auth": "^4.24.5",
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
     "react": "^18",
     "react-dom": "^18",
     "react-highlight-words": "^0.20.0",

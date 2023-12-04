@@ -201,6 +201,10 @@ export default function Tabela({ filtro }: { filtro: string }): JSX.Element {
       columns={columns}
       dataSource={data.filter((ref) => ref.filtro === filtro)}
       scroll={{ x: "scroll" }}
+<<<<<<< HEAD
+=======
+      pagination={{ pageSize: 5 }}
+>>>>>>> 91215c710fe57b2c8654e78a0d943d3e49b345e2
     />
   );
 }
